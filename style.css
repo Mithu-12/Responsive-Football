@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Volkhov:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/Decore.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+nav ul li a{
+    margin-left: 25px;
+    color: #000;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+}
+.container{
+    max-width: 1140px;
+    margin-bottom: 100px;
+}
+.title-container h1{
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 84px !important;
+}
+.container img{
+    width: 100%
+}
+.category img{
+    width: 50%;
+}
+.category{
+    text-align: center;
+    background-image: url(assets/bg-decor-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.category .single-catagory{
+    border: 1fx solid #fff;
+    box-shadow: 0 30px 80px rgb(0 0 0 / 2%);
+    border-radius: 34px;
+    width: 250px;
+    transition: all ease-in-out 0.5s;
+}
+.single-catagory:hover{
+    box-shadow: 0 100px 80px rgba(0, 0, 0, 0.1);
+}
+.sponser img{
+    width: 90% !important;
+}
+.items{
+    border-radius: 15px;
+}
+.items:hover{
+    padding: 0;
+    box-shadow: 0 100px 80px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+.subscribe .container{
+    background: #dfd7f9 url(assets/subscribe-decor-left.png) no-repeat bottom left;
+    background-repeat: no-repeat;
+    padding: 80px;
+    border-radius: 20px;
+    
+}
+.subscribe h2{
+    width: 70%;
+    margin: auto;
+}
+.btn{
+    padding: 8px 20px;
+}
+.copyright{
+    margin-top: 25px;
+}
+@media screen and (max-width: 992px) {
+    .title-container h5, p{
+        font-size: 28px !important;
+    }
+    .title-container .row{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
